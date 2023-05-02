@@ -1,0 +1,84 @@
+/* body의 기본값이 8px 들어가기 때문에 그걸 없애주는 초기화 코드 */
+body {
+  margin: 0px;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1ed760;
+}
+
+nav {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  height: 960px;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+footer {
+  height: 530px;
+  background-color: black;
+}
+
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+}
+
+.headline {
+  font-size: 156px;
+  font-weight: 900;
+  color: #1ed760;
+  position: relative;
+  left: 220px;
+  padding-bottom: 40px;
+}
+
+.headline-first {
+  position: relative;
+  left: -2.5em;
+}
+
+.sub-headline {
+  color: #1ed760;
+  text-align: center;
+  font-size: 18px;
+  padding-bottom: 40px;
+}
+
+.button-area {
+  text-align: center;
+}
+
+/* 버튼 스타일링 직접하기 */
+.button-style {
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  border: none;
+  font-weight: 700;
+}
+
+.button-style:hover {
+  transform: scale(1.1);
+}
